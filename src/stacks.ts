@@ -4,7 +4,7 @@
  * Each stack provides a complete CSS font-family value with
  * platform-specific fallbacks.
  *
- * @see https://fontfyi.com/font-stacks/
+ * @see https://fontfyi.com/tools/font-stack/
  */
 
 import type { FontStack } from "./types.js";
@@ -13,7 +13,7 @@ import type { FontStack } from "./types.js";
  * 10 curated font stack presets covering system UI, serif, sans-serif,
  * monospace, and specialty categories.
  *
- * @see https://fontfyi.com/font-stacks/
+ * @see https://fontfyi.com/tools/font-stack/
  */
 export const FONT_STACKS: FontStack[] = [
   {
@@ -96,7 +96,7 @@ const bySlug = new Map<string, FontStack>(FONT_STACKS.map((s) => [s.slug, s]));
  * // system-ui, -apple-system, BlinkMacSystemFont, ...
  * ```
  *
- * @see https://fontfyi.com/font-stacks/
+ * @see https://fontfyi.com/tools/font-stack/
  */
 export function getStack(slug: string): FontStack | null {
   return bySlug.get(slug) ?? null;

@@ -102,7 +102,7 @@ export function cssFamily(family: string, category: string): string {
  * // "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
  * ```
  *
- * @see https://fontfyi.com/fonts/inter/
+ * @see https://fontfyi.com/font/inter/
  */
 export function googleFontsUrl(family: string, weights?: number[]): string {
   const encoded = family.replace(/ /g, "+");

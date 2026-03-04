@@ -33,7 +33,7 @@ export interface FontCSSResult {
  * console.log(info?.category);  // "sans-serif"
  * ```
  *
- * @see https://fontfyi.com/fonts/inter/
+ * @see https://fontfyi.com/font/inter/
  */
 export function fontInfo(slug: string): FontInfo | null {
   return getFont(slug);
@@ -73,7 +73,7 @@ export function fontSearch(query: string, limit: number = 20): FontInfo[] {
  * // "'Inter', sans-serif"
  * ```
  *
- * @see https://fontfyi.com/fonts/inter/
+ * @see https://fontfyi.com/font/inter/
  */
 export function fontCSS(slug: string, weights?: number[]): FontCSSResult | null {
   const font = getFont(slug);
@@ -121,7 +121,7 @@ export function fontPairings(slug: string): FontPairing[] {
  * console.log(stacks[0].stack);  // "system-ui, -apple-system, ..."
  * ```
  *
- * @see https://fontfyi.com/font-stacks/
+ * @see https://fontfyi.com/tools/font-stack/
  */
 export function fontStacks(): FontStack[] {
   return [...FONT_STACKS];

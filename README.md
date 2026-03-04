@@ -3,11 +3,11 @@
 [![npm](https://img.shields.io/npm/v/fontfyi)](https://www.npmjs.com/package/fontfyi)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Pure TypeScript toolkit for working with **Google Fonts**. Access metadata for [50 popular fonts](https://fontfyi.com/fonts/), generate CSS import URLs and `<link>` tags, browse [15 curated font pairings](https://fontfyi.com/pairings/), and use [10 system font stack presets](https://fontfyi.com/font-stacks/).
+Pure TypeScript toolkit for working with **Google Fonts**. Access metadata for [50 popular fonts](https://fontfyi.com/fonts/), generate CSS import URLs and `<link>` tags, browse [15 curated font pairings](https://fontfyi.com/pairings/), and use [10 system font stack presets](https://fontfyi.com/tools/font-stack/).
 
 **Zero runtime dependencies.** Works in Node.js, Deno, Bun, and browsers.
 
-> Explore fonts interactively at [fontfyi.com](https://fontfyi.com) -- [font explorer](https://fontfyi.com/fonts/), [font pairings](https://fontfyi.com/pairings/), [font stacks](https://fontfyi.com/font-stacks/), and [developer API](https://fontfyi.com/developers/).
+> Explore fonts interactively at [fontfyi.com](https://fontfyi.com) -- [font explorer](https://fontfyi.com/fonts/), [font pairings](https://fontfyi.com/pairings/), [font stacks](https://fontfyi.com/tools/font-stack/), and [developer API](https://fontfyi.com/developers/).
 
 ## Install
 
@@ -128,7 +128,7 @@ const best = featuredPairings();
 
 ### Font Stacks
 
-Use [10 system font stack presets](https://fontfyi.com/font-stacks/) for CSS `font-family` declarations without loading external fonts.
+Use [10 system font stack presets](https://fontfyi.com/tools/font-stack/) for CSS `font-family` declarations without loading external fonts.
 
 ```ts
 import { fontStacks, getStack, FONT_STACKS } from "fontfyi";
@@ -169,9 +169,9 @@ weightName(700);  // "Bold"
 |----------|-------------|
 | [`fontInfo(slug)`](https://fontfyi.com/fonts/) | Get font metadata by slug |
 | [`fontSearch(query, limit?)`](https://fontfyi.com/fonts/) | Search fonts by name |
-| [`fontCSS(slug, weights?)`](https://fontfyi.com/fonts/inter/) | Generate CSS import snippet |
+| [`fontCSS(slug, weights?)`](https://fontfyi.com/font/inter/) | Generate CSS import snippet |
 | [`fontPairings(slug)`](https://fontfyi.com/pairings/) | Get pairing recommendations |
-| [`fontStacks()`](https://fontfyi.com/font-stacks/) | Get all 10 font stack presets |
+| [`fontStacks()`](https://fontfyi.com/tools/font-stack/) | Get all 10 font stack presets |
 | [`popularFonts(limit?)`](https://fontfyi.com/fonts/) | Get top fonts by popularity |
 
 ### Data Functions
@@ -189,7 +189,7 @@ weightName(700);  // "Bold"
 
 | Function | Description |
 |----------|-------------|
-| [`googleFontsUrl(family, weights?)`](https://fontfyi.com/fonts/inter/) | Google Fonts CSS import URL |
+| [`googleFontsUrl(family, weights?)`](https://fontfyi.com/font/inter/) | Google Fonts CSS import URL |
 | `googleFontsLink(family, weights?)` | HTML `<link>` tag |
 | `googleDownloadUrl(family)` | Google Fonts download URL |
 | `cssFamily(family, category)` | CSS `font-family` with fallback |
@@ -200,7 +200,7 @@ weightName(700);  // "Bold"
 
 | Function | Description |
 |----------|-------------|
-| [`getStack(slug)`](https://fontfyi.com/font-stacks/) | Look up font stack by slug |
+| [`getStack(slug)`](https://fontfyi.com/tools/font-stack/) | Look up font stack by slug |
 | [`getPairingsFor(slug)`](https://fontfyi.com/pairings/) | Get pairings for a font |
 | [`featuredPairings()`](https://fontfyi.com/pairings/) | Get pairings with score >= 8 |
 
@@ -208,7 +208,7 @@ weightName(700);  // "Bold"
 
 | Constant | Description |
 |----------|-------------|
-| [`FONT_STACKS`](https://fontfyi.com/font-stacks/) | Array of 10 font stack presets |
+| [`FONT_STACKS`](https://fontfyi.com/tools/font-stack/) | Array of 10 font stack presets |
 | [`PAIRINGS`](https://fontfyi.com/pairings/) | Array of 15 font pairings |
 | `WEIGHT_NAMES` | Map of numeric weights to names |
 | `CATEGORY_FALLBACKS` | Map of categories to CSS fallbacks |
@@ -284,7 +284,7 @@ Part of the [FYIPedia](https://fyipedia.com/) open-source developer tools ecosys
 
 - [Font Explorer](https://fontfyi.com/fonts/) -- Browse all Google Fonts
 - [Font Pairings](https://fontfyi.com/pairings/) -- Curated heading + body combinations
-- [Font Stacks](https://fontfyi.com/font-stacks/) -- CSS-ready font stack presets
+- [Font Stacks](https://fontfyi.com/tools/font-stack/) -- CSS-ready font stack presets
 - [REST API Documentation](https://fontfyi.com/developers/) -- Free API with OpenAPI spec
 - [Python Package](https://pypi.org/project/fontfyi/) -- `pip install fontfyi`
 - [Source Code](https://github.com/fyipedia/fontfyi-js) -- MIT licensed

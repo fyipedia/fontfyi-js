@@ -37,7 +37,7 @@ const bySlug = new Map<string, FontInfo>(fonts.map((f) => [f.slug, f]));
  * console.log(font?.family); // "Inter"
  * ```
  *
- * @see https://fontfyi.com/fonts/inter/
+ * @see https://fontfyi.com/font/inter/
  */
 export function getFont(slug: string): FontInfo | null {
   return bySlug.get(slug) ?? null;
