@@ -1,0 +1,43 @@
+{
+  "name": "fontfyi",
+  "version": "0.1.0",
+  "description": "Google Fonts metadata, CSS generation, and font pairing toolkit — 50 popular fonts with weights, subsets, and pairing recommendations",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "google-fonts",
+    "font",
+    "css",
+    "font-pairing",
+    "font-stack",
+    "typography",
+    "web-fonts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/fontfyi-js"
+  },
+  "homepage": "https://fontfyi.com",
+  "license": "MIT",
+  "author": "FYIPedia",
+  "devDependencies": {
+    "tsup": "^8.0",
+    "typescript": "^5.7",
+    "vitest": "^3.0"
+  }
+}
