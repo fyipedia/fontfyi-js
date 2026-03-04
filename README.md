@@ -1,7 +1,9 @@
-# fontfyi -- Google Fonts Metadata, CSS Generation & Font Pairing Toolkit
+# fontfyi
 
 [![npm](https://img.shields.io/npm/v/fontfyi)](https://www.npmjs.com/package/fontfyi)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/fontfyi)
 
 Pure TypeScript toolkit for working with **Google Fonts**. Access metadata for [50 popular fonts](https://fontfyi.com/fonts/), generate CSS import URLs and `<link>` tags, browse [15 curated font pairings](https://fontfyi.com/pairings/), and use [10 system font stack presets](https://fontfyi.com/tools/font-stack/).
 
@@ -263,9 +265,17 @@ interface FontCSSResult {
 
 Browse the full collection at [fontfyi.com/fonts/](https://fontfyi.com/fonts/).
 
+## Also Available for Python
+
+```bash
+pip install fontfyi
+```
+
+See the [Python package on PyPI](https://pypi.org/project/fontfyi/).
+
 ## FYIPedia Developer Tools
 
-Part of the [FYIPedia](https://fyipedia.com/) open-source developer tools ecosystem:
+Part of the [FYIPedia](https://github.com/fyipedia) open-source developer tools ecosystem:
 
 | Package | npm | Description |
 |---------|-----|-------------|
