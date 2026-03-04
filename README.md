@@ -274,6 +274,11 @@ Part of the [FYIPedia](https://fyipedia.com/) open-source developer tools ecosys
 | [symbolfyi](https://symbolfyi.com/) | `npm i symbolfyi` | [Symbol encoder](https://symbolfyi.com/developers/) -- 11 encoding formats for any character |
 | [unicodefyi](https://unicodefyi.com/) | `npm i unicodefyi` | [Unicode character lookup](https://unicodefyi.com/developers/) -- 17 encodings + character search |
 | **fontfyi** | `npm i fontfyi` | [Google Fonts explorer](https://fontfyi.com/developers/) -- metadata, CSS helpers, font pairings |
+| [distancefyi](https://distancefyi.com/) | `npm i distancefyi` | Haversine distance, bearing, travel times -- [distancefyi.com](https://distancefyi.com/) |
+| [timefyi](https://timefyi.com/) | `npm i timefyi` | Timezone operations, time differences -- [timefyi.com](https://timefyi.com/) |
+| [namefyi](https://namefyi.com/) | `npm i namefyi` | Korean romanization, Five Elements -- [namefyi.com](https://namefyi.com/) |
+| [unitfyi](https://unitfyi.com/) | `npm i unitfyi` | Unit conversion, 200 units, 20 categories -- [unitfyi.com](https://unitfyi.com/) |
+| [holidayfyi](https://holidayfyi.com/) | `npm i holidayfyi` | Holiday dates, Easter calculation -- [holidayfyi.com](https://holidayfyi.com/) |
 
 ## Links
 
