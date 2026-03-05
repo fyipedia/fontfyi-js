@@ -15,6 +15,19 @@ Pure TypeScript toolkit for working with **Google Fonts**. Access metadata for [
   <img src="demo.gif" alt="fontfyi demo — Google Fonts metadata and CSS generation" width="800">
 </p>
 
+## Table of Contents
+
+- [Install](#install)
+- [Quick Start](#quick-start)
+- [Features](#features)
+- [API Reference](#api-reference)
+- [Types](#types)
+- [Data Coverage](#data-coverage)
+- [Learn More About Fonts](#learn-more-about-fonts)
+- [Also Available for Python](#also-available-for-python)
+- [FYIPedia Developer Tools](#fyipedia-developer-tools)
+- [License](#license)
+
 ## Install
 
 ```bash
@@ -269,6 +282,13 @@ interface FontCSSResult {
 
 Browse the full collection at [fontfyi.com/fonts/](https://fontfyi.com/fonts/).
 
+## Learn More About Fonts
+
+- **Browse**: [Google Fonts](https://fontfyi.com/) · [Font Search](https://fontfyi.com/search/) · [Categories](https://fontfyi.com/category/)
+- **Tools**: [Font Pairing](https://fontfyi.com/tools/pairing/) · [CSS Generator](https://fontfyi.com/tools/css/)
+- **API**: [REST API Docs](https://fontfyi.com/developers/) · [OpenAPI Spec](https://fontfyi.com/api/openapi.json)
+- **Python**: [PyPI Package](https://pypi.org/project/fontfyi/)
+
 ## Also Available for Python
 
 ```bash
@@ -279,29 +299,23 @@ See the [Python package on PyPI](https://pypi.org/project/fontfyi/).
 
 ## FYIPedia Developer Tools
 
-Part of the [FYIPedia](https://github.com/fyipedia) open-source developer tools ecosystem:
+Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosystem.
 
-| Package | npm | Description |
-|---------|-----|-------------|
-| [@fyipedia/colorfyi](https://colorfyi.com/) | `npm i @fyipedia/colorfyi` | [Hex to RGB converter](https://colorfyi.com/tools/converter/), [WCAG contrast checker](https://colorfyi.com/tools/contrast-checker/), [color harmonies](https://colorfyi.com/tools/palette-generator/) |
-| [emojifyi](https://emojifyi.com/) | `npm i emojifyi` | [Emoji encoding](https://emojifyi.com/developers/) & metadata for 3,781 Unicode emojis |
-| [symbolfyi](https://symbolfyi.com/) | `npm i symbolfyi` | [Symbol encoder](https://symbolfyi.com/developers/) -- 11 encoding formats for any character |
-| [unicodefyi](https://unicodefyi.com/) | `npm i unicodefyi` | [Unicode character lookup](https://unicodefyi.com/developers/) -- 17 encodings + character search |
-| **fontfyi** | `npm i fontfyi` | [Google Fonts explorer](https://fontfyi.com/developers/) -- metadata, CSS helpers, font pairings |
-| [distancefyi](https://distancefyi.com/) | `npm i distancefyi` | Haversine distance, bearing, travel times -- [distancefyi.com](https://distancefyi.com/) |
-| [timefyi](https://timefyi.com/) | `npm i timefyi` | Timezone operations, time differences -- [timefyi.com](https://timefyi.com/) |
-| [namefyi](https://namefyi.com/) | `npm i namefyi` | Korean romanization, Five Elements -- [namefyi.com](https://namefyi.com/) |
-| [unitfyi](https://unitfyi.com/) | `npm i unitfyi` | Unit conversion, 200 units, 20 categories -- [unitfyi.com](https://unitfyi.com/) |
-| [holidayfyi](https://holidayfyi.com/) | `npm i holidayfyi` | Holiday dates, Easter calculation -- [holidayfyi.com](https://holidayfyi.com/) |
-
-## Links
-
-- [Font Explorer](https://fontfyi.com/fonts/) -- Browse all Google Fonts
-- [Font Pairings](https://fontfyi.com/pairings/) -- Curated heading + body combinations
-- [Font Stacks](https://fontfyi.com/tools/font-stack/) -- CSS-ready font stack presets
-- [REST API Documentation](https://fontfyi.com/developers/) -- Free API with OpenAPI spec
-- [Python Package](https://pypi.org/project/fontfyi/) -- `pip install fontfyi`
-- [Source Code](https://github.com/fyipedia/fontfyi-js) -- MIT licensed
+| Package | PyPI | npm | Description |
+|---------|------|-----|-------------|
+| colorfyi | [PyPI](https://pypi.org/project/colorfyi/) | [npm](https://www.npmjs.com/package/@fyipedia/colorfyi) | Color conversion, WCAG contrast, harmonies -- [colorfyi.com](https://colorfyi.com/) |
+| emojifyi | [PyPI](https://pypi.org/project/emojifyi/) | [npm](https://www.npmjs.com/package/emojifyi) | Emoji encoding & metadata for 3,953 emojis -- [emojifyi.com](https://emojifyi.com/) |
+| symbolfyi | [PyPI](https://pypi.org/project/symbolfyi/) | [npm](https://www.npmjs.com/package/symbolfyi) | Symbol encoding in 11 formats -- [symbolfyi.com](https://symbolfyi.com/) |
+| unicodefyi | [PyPI](https://pypi.org/project/unicodefyi/) | [npm](https://www.npmjs.com/package/unicodefyi) | Unicode lookup with 17 encodings -- [unicodefyi.com](https://unicodefyi.com/) |
+| **fontfyi** | [PyPI](https://pypi.org/project/fontfyi/) | [npm](https://www.npmjs.com/package/fontfyi) | Google Fonts metadata & CSS -- [fontfyi.com](https://fontfyi.com/) |
+| distancefyi | [PyPI](https://pypi.org/project/distancefyi/) | [npm](https://www.npmjs.com/package/distancefyi) | Haversine distance & travel times -- [distancefyi.com](https://distancefyi.com/) |
+| timefyi | [PyPI](https://pypi.org/project/timefyi/) | [npm](https://www.npmjs.com/package/timefyi) | Timezone ops & business hours -- [timefyi.com](https://timefyi.com/) |
+| namefyi | [PyPI](https://pypi.org/project/namefyi/) | [npm](https://www.npmjs.com/package/namefyi) | Korean romanization & Five Elements -- [namefyi.com](https://namefyi.com/) |
+| unitfyi | [PyPI](https://pypi.org/project/unitfyi/) | [npm](https://www.npmjs.com/package/unitfyi) | Unit conversion, 220 units -- [unitfyi.com](https://unitfyi.com/) |
+| holidayfyi | [PyPI](https://pypi.org/project/holidayfyi/) | [npm](https://www.npmjs.com/package/holidayfyi) | Holiday dates & Easter calculation -- [holidayfyi.com](https://holidayfyi.com/) |
+| cocktailfyi | [PyPI](https://pypi.org/project/cocktailfyi/) | -- | Cocktail ABV, calories, flavor -- [cocktailfyi.com](https://cocktailfyi.com/) |
+| fyipedia | [PyPI](https://pypi.org/project/fyipedia/) | -- | Unified CLI: `fyi color info FF6B35` -- [fyipedia.com](https://fyipedia.com/) |
+| fyipedia-mcp | [PyPI](https://pypi.org/project/fyipedia-mcp/) | -- | Unified MCP hub for AI assistants -- [fyipedia.com](https://fyipedia.com/) |
 
 ## License
 
