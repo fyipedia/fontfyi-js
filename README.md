@@ -279,7 +279,7 @@ Part of the [FYIPedia](https://github.com/fyipedia) open-source developer tools 
 
 | Package | npm | Description |
 |---------|-----|-------------|
-| [colorfyi](https://colorfyi.com/) | `npm i colorfyi` | [Hex to RGB converter](https://colorfyi.com/tools/converter/), [WCAG contrast checker](https://colorfyi.com/tools/contrast-checker/), [color harmonies](https://colorfyi.com/tools/palette-generator/) |
+| [@fyipedia/colorfyi](https://colorfyi.com/) | `npm i @fyipedia/colorfyi` | [Hex to RGB converter](https://colorfyi.com/tools/converter/), [WCAG contrast checker](https://colorfyi.com/tools/contrast-checker/), [color harmonies](https://colorfyi.com/tools/palette-generator/) |
 | [emojifyi](https://emojifyi.com/) | `npm i emojifyi` | [Emoji encoding](https://emojifyi.com/developers/) & metadata for 3,781 Unicode emojis |
 | [symbolfyi](https://symbolfyi.com/) | `npm i symbolfyi` | [Symbol encoder](https://symbolfyi.com/developers/) -- 11 encoding formats for any character |
 | [unicodefyi](https://unicodefyi.com/) | `npm i unicodefyi` | [Unicode character lookup](https://unicodefyi.com/developers/) -- 17 encodings + character search |
