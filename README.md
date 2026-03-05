@@ -11,6 +11,10 @@ Pure TypeScript toolkit for working with **Google Fonts**. Access metadata for [
 
 > Explore fonts interactively at [fontfyi.com](https://fontfyi.com) -- [font explorer](https://fontfyi.com/fonts/), [font pairings](https://fontfyi.com/pairings/), [font stacks](https://fontfyi.com/tools/font-stack/), and [developer API](https://fontfyi.com/developers/).
 
+<p align="center">
+  <img src="demo.gif" alt="fontfyi demo — Google Fonts metadata and CSS generation" width="800">
+</p>
+
 ## Install
 
 ```bash
