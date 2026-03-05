@@ -19,7 +19,12 @@ Pure TypeScript toolkit for working with **Google Fonts**. Access metadata for [
 
 - [Install](#install)
 - [Quick Start](#quick-start)
-- [Features](#features)
+- [What You Can Do](#what-you-can-do)
+  - [Font Metadata](#font-metadata)
+  - [CSS Generation](#css-generation)
+  - [Font Pairings](#font-pairings)
+  - [Font Stacks](#font-stacks)
+  - [Weight Parsing](#weight-parsing)
 - [API Reference](#api-reference)
 - [Types](#types)
 - [Data Coverage](#data-coverage)
@@ -66,11 +71,21 @@ console.log(stacks[0].name);   // "System UI"
 console.log(stacks[0].stack);  // "system-ui, -apple-system, ..."
 ```
 
-## Features
+## What You Can Do
 
 ### Font Metadata
 
-Access detailed metadata for [50 popular Google Fonts](https://fontfyi.com/fonts/), including family name, category, weights, subsets, designer, popularity rank, recommended use cases, and similar fonts.
+[Google Fonts](https://fonts.google.com/) hosts over 1,600 font families, but choosing the right one for your project can be overwhelming. This package bundles curated metadata for the **50 most popular Google Fonts** -- the fonts that power the majority of the web.
+
+Each font entry includes family name, CSS category (serif, sans-serif, monospace, display, handwriting), available weights, supported character subsets (Latin, Cyrillic, Greek, etc.), designer name, popularity rank, recommended use cases, and similar font suggestions.
+
+| Category | Fonts | Examples |
+|----------|-------|---------|
+| **Sans-serif** | 20 | Inter, Roboto, Open Sans, Lato, Montserrat |
+| **Serif** | 10 | Merriweather, Playfair Display, Lora, PT Serif |
+| **Monospace** | 8 | Roboto Mono, JetBrains Mono, IBM Plex Mono, Fira Code |
+| **Display** | 8 | Oswald, Bebas Neue, Abril Fatface, Righteous |
+| **Handwriting** | 4 | Dancing Script, Pacifico, Caveat, Sacramento |
 
 ```ts
 import { fontInfo, fontSearch, popularFonts, byCategory, allFonts } from "fontfyi";
@@ -98,6 +113,8 @@ const monos = byCategory("monospace");
 const all = allFonts();
 ```
 
+Learn more: [Font Explorer](https://fontfyi.com/fonts/) · [Font Categories](https://fontfyi.com/category/) · [REST API Docs](https://fontfyi.com/developers/)
+
 ### CSS Generation
 
 Generate [Google Fonts import URLs](https://fontfyi.com/developers/), HTML `<link>` tags, and `font-family` declarations.
@@ -121,9 +138,11 @@ googleFontsLink("Inter", [400, 700]);
 cssFamily("Inter", "sans-serif");  // "'Inter', sans-serif"
 ```
 
+Learn more: [CSS Generator Tool](https://fontfyi.com/tools/css/) · [Google Fonts API](https://developers.google.com/fonts/docs/css2)
+
 ### Font Pairings
 
-Browse [15 curated heading + body font pairings](https://fontfyi.com/pairings/) with design rationale, quality scores, use cases, and mood classification.
+Typography pairing is both an art and a science. A well-chosen heading + body font combination creates visual hierarchy, reinforces brand identity, and improves readability. Browse [15 curated heading + body font pairings](https://fontfyi.com/pairings/) with design rationale, quality scores, use cases, and mood classification.
 
 ```ts
 import { fontPairings, PAIRINGS, featuredPairings } from "fontfyi";
@@ -145,6 +164,8 @@ console.log(PAIRINGS.length);  // 15
 const best = featuredPairings();
 ```
 
+Learn more: [Font Pairing Tool](https://fontfyi.com/pairings/) · [Typography Glossary](https://fontfyi.com/glossary/)
+
 ### Font Stacks
 
 Use [10 system font stack presets](https://fontfyi.com/tools/font-stack/) for CSS `font-family` declarations without loading external fonts.
@@ -164,6 +185,8 @@ console.log(code?.stack);
 // geometric-humanist, neo-grotesque, monospace-slab, monospace-code,
 // industrial, rounded
 ```
+
+Learn more: [Font Stack Presets](https://fontfyi.com/tools/font-stack/) · [System Font Stacks](https://modernfontstacks.com/)
 
 ### Weight Parsing
 
