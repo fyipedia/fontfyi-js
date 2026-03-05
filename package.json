@@ -1,6 +1,6 @@
 {
   "name": "fontfyi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google Fonts metadata, CSS generation, and font pairing toolkit — 50 popular fonts with weights, subsets, and pairing recommendations",
   "type": "module",
   "main": "dist/index.js",
