@@ -138,7 +138,7 @@ googleFontsLink("Inter", [400, 700]);
 cssFamily("Inter", "sans-serif");  // "'Inter', sans-serif"
 ```
 
-Learn more: [CSS Generator Tool](https://fontfyi.com/tools/css/) · [Google Fonts API](https://developers.google.com/fonts/docs/css2)
+Learn more: [Google Fonts API](https://developers.google.com/fonts/docs/css2)
 
 ### Font Pairings
 
@@ -308,8 +308,7 @@ Browse the full collection at [fontfyi.com/fonts/](https://fontfyi.com/fonts/).
 ## Learn More About Fonts
 
 - **Browse**: [Google Fonts](https://fontfyi.com/) · [Font Search](https://fontfyi.com/search/) · [Categories](https://fontfyi.com/category/)
-- **Tools**: [Font Pairing](https://fontfyi.com/tools/pairing/) · [CSS Generator](https://fontfyi.com/tools/css/)
-- **API**: [REST API Docs](https://fontfyi.com/developers/) · [OpenAPI Spec](https://fontfyi.com/api/openapi.json)
+- **Tools**: - **API**: [REST API Docs](https://fontfyi.com/developers/) · [OpenAPI Spec](https://fontfyi.com/api/openapi.json)
 - **Python**: [PyPI Package](https://pypi.org/project/fontfyi/)
 
 ## Also Available for Python
